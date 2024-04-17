@@ -1,0 +1,95 @@
+
+
+.h1contact{
+    font-size: 60px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: yellow;
+    transform: translate(2%, 120%);
+    background: linear-gradient(180deg, #8e3ddb, #450680);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translate(36%, 80%);
+}
+
+.contacttable{
+    width: 65%;
+    height: 44vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #ffffff5b;
+    color: #ffffff;
+    padding: 130px;
+    transform: translate(0%, -14%);
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.contacttable td{
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    transform: translate(-99%, 0%);
+    color: rgb(255, 255, 255);
+
+   
+}
+.contacttable input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #928d8d;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.messageCont{
+    width: 180%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #47454550;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.btnContact{
+    transform: translate(320%, -474%);
+    height: 44px;
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #202020;
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+ 
+.btnContact:hover{
+    transform: translate(320%, -474%);
+    height: 44px;
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #383737;
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}

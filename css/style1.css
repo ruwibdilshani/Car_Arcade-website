@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #f6f6f6;
+}
+
+.banner{
+    width: auto;
+    height: 165vh;
+  
+     background-image:linear-gradient(rgba(113, 107, 107, 0.664),rgba(89, 86, 86, 0.562));
+     background-size: cover;
+     background-position: center;
+    
+ }
+
+header{
+    background:#240046;
+    height: 66px;
+}
+header *{
+    color: white;
+}
+
+header .logo{
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo-text{
+    margin: 9px;
+    font-family: 'lora' serif;
+}
+
+header .logo-text span{
+    color: #b989e6;
+}
+
+header ul {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul li{
+    float: left;
+    position: relative;
+}
+
+header ul li ul{
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: 180px;
+}
+
+
+header ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    background: #8e3ddb;
+    transition: 0.5s;
+}
+
+header .menu-toggle{
+    display: none;
+}
+
+h2{
+
+    font-size: 50px;
+    justify-content: center;
+    font-weight: bold;
+    margin: 20px 0;
+    background: linear-gradient(180deg, #770bdc, #412161);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+h3{
+
+    background: linear-gradient(180deg, #770bdc, #412161);
+    color: white;
+
+}
+
+
+/* Base styles */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        width: 1200px;
+    }
+}
